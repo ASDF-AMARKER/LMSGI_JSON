@@ -18,7 +18,7 @@ El document XML està organitzat de la següent manera:
 
 ## Exemple de Producte
 
-A continuació es mostra un exemple de com es defineix un producte en aquest XML:
+A continuació es mostra un exemple de com he defineix un producte en aquest XML:
 
 ```xml
 <producte id="P001">
