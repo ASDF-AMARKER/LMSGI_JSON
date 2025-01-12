@@ -1,0 +1,122 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "type": ["Planta", "Veneno"],
+        "weight": "6.9 kg",
+        "height": "0.7 m",
+        "stats": {
+          "hp": 45,
+          "attack": 49,
+          "defense": 49,
+          "special_attack": 65,
+          "special_defense": 65,
+          "speed": 45
+        },
+        "evolution": {
+          "evolves_to": "Ivysaur",
+          "level": 16
+        },
+        "abilities": [
+          {
+            "name": "Overgrow",
+            "description": "Aumenta el poder de los movimientos de tipo Planta cuando el HP es bajo."
+          },
+          {
+            "name": "Chlorophyll",
+            "description": "Duplica la velocidad del Pokémon cuando hay sol brillante."
+          }
+        ],
+        "moves": [
+          {
+            "name": "Tackle",
+            "description": "Un ataque básico que golpea al oponente.",
+            "power": 40,
+            "contact": true
+          },
+          {
+            "name": "Vine Whip",
+            "description": "Ataca con enredaderas que golpean al oponente.",
+            "power": 45,
+            "contact": false
+          }
+        ],
+        "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png",
+        "evolutions": [
+          {
+            "id": 2,
+            "level": 16
+          }
+        ],
+        "pokeathlon_stats": {
+          "velocidad": 3,
+          "fortaleza": 3,
+          "precisión": 4,
+          "resistencia": 4,
+          "salto": 3,
+          "total": 17,
+          "media": 3.4
+        }
+      },
+      {
+        "id": 2,
+        "name": "Ivysaur",
+        "type": ["Planta", "Veneno"],
+        "weight": "13.0 kg",
+        "height": "1.0 m",
+        "stats": {
+          "hp": 60,
+          "attack": 62,
+          "defense": 63,
+          "special_attack": 80,
+          "special_defense": 80,
+          "speed": 60
+        },
+        "evolution": {
+          "evolves_to": "Venusaur",
+          "level": 32
+        },
+        "abilities": [
+          {
+            "name": "Overgrow",
+            "description": "Aumenta el poder de los movimientos de tipo Planta cuando el HP es bajo."
+          },
+          {
+            "name": "Chlorophyll",
+            "description": "Duplica la velocidad del Pokémon cuando hay sol brillante."
+          }
+        ],
+        "moves": [
+          {
+            "name": "Razor Leaf",
+            "description": "Lanza hojas afiladas que cortan al oponente.",
+            "power": 55,
+            "contact": false
+          },
+          {
+            "name": "Take Down",
+            "description": "Un ataque fuerte que daña al usuario también.",
+            "power": 90,
+            "contact": true
+          }
+        ],
+        "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/002.png",
+        "evolutions": [
+          {
+            "id": 3,
+            "level": 32
+          }
+        ],
+        "pokeathlon_stats": {
+          "velocidad": 4,
+          "fortaleza": 4,
+          "precisión": 5,
+          "resistencia": 5,
+          "salto": 4,
+          "total": 22,
+          "media": 4.4
+        }
+      }
+    ]
+  }
