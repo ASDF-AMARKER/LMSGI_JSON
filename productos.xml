@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Arxiu XML que conté la informació dels productes d'una botiga online -->
+<botiga>
+    <!-- Primer producte -->
+    <producte id="P001">
+        <!-- Nom del producte -->
+        <nom>Portàtil ASUS ROG</nom>
+
+        <!-- Descripció del producte -->
+        <descripcio>Portàtil gaming amb processador Intel Core i7, 16GB de RAM i GPU NVIDIA GTX 1660.</descripcio>
+
+        <!-- Preu del producte amb l'atribut moneda -->
+        <preu moneda="EUR">1200.00</preu>
+
+        <!-- Categoria del producte -->
+        <categoria>Informàtica</categoria>
+
+        <!-- Disponibilitat del producte (en estoc o esgotat) -->
+        <disponibilitat>En estoc</disponibilitat>
+
+        <!-- URL de la imatge del producte -->
+        <imatge>https://m.media-amazon.com/images/I/71bxI3BsdaL._AC_SL1500_.jpg</imatge>
+    </producte>
+
+    <!-- Segon producte -->
+    <producte id="P002">
+        <!-- Nom del producte -->
+        <nom>Smartphone Samsung Galaxy S21</nom>
+
+        <!-- Descripció del producte -->
+        <descripcio>Smartphone amb pantalla de 6.2 polzades, càmera de 64 MP i 128 GB de memòria interna.</descripcio>
+
+        <!-- Preu del producte amb l'atribut moneda -->
+        <preu moneda="EUR">799.99</preu>
+
+        <!-- Categoria del producte -->
+        <categoria>Electrònica</categoria>
+
+        <!-- Disponibilitat del producte (en estoc o esgotat) -->
+        <disponibilitat>Esgoatat</disponibilitat>
+
+        <!-- URL de la imatge del producte -->
+        <imatge>https://m.media-amazon.com/images/I/618nXc9a7gL.__AC_SX300_SY300_QL70_ML2_.jpg</imatge>
+    </producte>
+
+    <!-- Tercer producte -->
+    <producte id="P003">
+        <!-- Nom del producte -->
+        <nom>Monitor Dell UltraSharp 27"</nom>
+
+        <!-- Descripció del producte -->
+        <descripcio>Monitor de 27 polzades amb resolució 4K i panell IPS per a una qualitat d'imatge superior.</descripcio>
+
+        <!-- Preu del producte amb l'atribut moneda -->
+        <preu moneda="EUR">599.00</preu>
+
+        <!-- Categoria del producte -->
+        <categoria>Informàtica</categoria>
+
+        <!-- Disponibilitat del producte (en estoc o esgotat) -->
+        <disponibilitat>En estoc</disponibilitat>
+
+        <!-- URL de la imatge del producte -->
+        <imatge>https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/u-series/u2724d/media-gallery/monitor-ultrasharp-u2724d-qhd-gy-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=476&wid=541&qlt=100,1&resMode=sharp2&size=541,476&chrss=full</imatge>
+    </producte>
+
+    <!-- Quart producte -->
+    <producte id="P004">
+        <!-- Nom del producte -->
+        <nom>Rellotge Garmin Forerunner 945</nom>
+
+        <!-- Descripció del producte -->
+        <descripcio>Rellotge intel·ligent per a esportistes amb GPS, monitoratge de la freqüència cardíaca i autonomia de 2 setmanes.</descripcio>
+
+        <!-- Preu del producte amb l'atribut moneda -->
+        <preu moneda="EUR">499.99</preu>
+
+        <!-- Categoria del producte -->
+        <categoria>Esports</categoria>
+
+        <!-- Disponibilitat del producte (en estoc o esgotat) -->
+        <disponibilitat>En estoc</disponibilitat>
+
+        <!-- URL de la imatge del producte -->
+        <imatge>https://res.garmin.com/transform/image/upload/c_limit,dpr_1.0,f_auto,h_1295,q_auto,w_2600/c_limit,h_1295,w_2600/v1/Product_Images/en/products/010-02063-01/v/cf-lg-1f31215e-e1d4-4ae6-91ae-0229df8e528b?pgw=1&pgwact=1</imatge>
+    </producte>
+</botiga>
+
+</botiga>
